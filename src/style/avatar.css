@@ -1,0 +1,36 @@
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.avatar.xsmall {
+  width: 16px;
+  height: 16px;
+}
+
+.avatar.small {
+  width: 24px;
+  height: 24px;
+}
+
+.avatar.large {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar.xlarge {
+  width: 96px;
+  height: 96px;
+}
+
+.avatar.xxlarge {
+  width: 128px;
+  height: 128px;
+}
+
+.avatar.square {
+  border-radius: 3px;
+}

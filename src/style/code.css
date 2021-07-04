@@ -1,0 +1,11 @@
+.code {
+  background-color: #f4f5f7;
+  padding: 2px 0.3ch;
+  border-radius: 3px;
+  border-style: none;
+  color: rgb(23, 43, 77);
+  display: inline;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  overflow: auto;
+}
