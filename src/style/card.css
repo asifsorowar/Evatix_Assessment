@@ -1,0 +1,11 @@
+.card-header {
+  color: #fa6452;
+}
+
+.card-details {
+  color: #6f6f6f;
+}
+
+.card-button {
+  background-image: linear-gradient(to left, #fa8751, #fa5a52);
+}

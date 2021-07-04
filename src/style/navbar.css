@@ -1,0 +1,121 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  width: 100%;
+  transition: 0.5s;
+  border-bottom: solid rgba(255, 255, 255, 0.2) 0.5px;
+  font-family: "SFProDisplay";
+}
+
+.logo {
+  width: 185px;
+  height: 33px;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+  margin-right: 30px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: white;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+.sticky {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.sticky a {
+  color: black;
+}
+
+.sticky .fas {
+  color: black;
+}
+
+.sticky ul {
+  color: black;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.mobile-menu li {
+  margin-right: 0;
+}
+
+.mobile-menu li a {
+  color: black;
+}
+
+.mobile-menu li a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+/* @media screen and (max-width: 991px) {
+  header {
+    padding: 20px 10px;
+    z-index: 999;
+  }
+  header a {
+    font-size: 1.5rem;
+  }
+  header ul {
+    position: absolute;
+    top: 72px;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin-left: 0;
+    background-color: rgba(68, 68, 241, 0.2);
+    transition: 0.3s;
+  }
+  header ul li {
+    margin: 0;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+  }
+  header .fas {
+    display: block;
+    cursor: pointer;
+  }
+  .sticky li > a {
+    color: white;
+  }
+} */

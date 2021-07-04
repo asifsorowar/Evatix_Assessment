@@ -1,0 +1,77 @@
+/* Poppins */
+@font-face {
+  font-family: "poppins";
+  src: url("fonts/poppins/poppins-bold-webfont.woff2") format("woff2"),
+    url("fonts/poppins/poppins-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("fonts/poppins/poppins-regular-webfont.woff2") format("woff2"),
+    url("fonts/poppins/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Railway */
+@font-face {
+  font-family: "raleway";
+  src: url("fonts/railway/raleway-bold-webfont.woff2") format("woff2"),
+    url("fonts/railway/raleway-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "raleway";
+  src: url("fonts/railway/raleway-regular-webfont.woff2") format("woff2"),
+    url("fonts/railway/raleway-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SFProDisplay */
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("fonts/sfprodisplay/fontsfree-net-sfprodisplay-bold-webfont.woff2")
+      format("woff2"),
+    url("fonts/sfprodisplay/fontsfree-net-sfprodisplay-bold-webfont.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("fonts/sfprodisplay/fontsfree-net-sfprodisplay-regular-webfont.woff2")
+      format("woff2"),
+    url("fonts/sfprodisplay/fontsfree-net-sfprodisplay-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}

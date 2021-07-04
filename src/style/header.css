@@ -1,0 +1,8 @@
+.header {
+  background-image: linear-gradient(to right, #fa8751, #fa5a52);
+  font-family: "SFProDisplay";
+}
+
+header {
+  padding: 7rem 0 0 0;
+}

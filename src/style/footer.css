@@ -1,0 +1,21 @@
+footer {
+  position: relative;
+  /* background-image: linear-gradient(to left, #fa8751, #fa5a52); */
+  font-family: "SFProDisplay";
+  /* margin-top: 15rem !important; */
+}
+
+.footer-header {
+  border-color: rgba(255, 255, 255, 0.34);
+}
+
+.footer_image {
+  width: 100%;
+}
+
+.footer-contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}

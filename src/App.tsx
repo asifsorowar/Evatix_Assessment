@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+import Packages from "./components/Packages";
+import Footer from "./components/Footer";
 
 function App() {
+  const [isScrolled, SetIsScrolled] = useState(false);
+
+  useEffect(() => {
+    window.scrollY > 0 ? SetIsScrolled(true) : SetIsScrolled(false);
+
+    window.addEventListener("scroll", () => {
+      let header = document.getElementById("header");
+      header!.classList.toggle("sticky", window.scrollY > 0);
+
+      window.scrollY > 0 ? SetIsScrolled(true) : SetIsScrolled(false);
+    });
+  }, [isScrolled]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar scrolled={isScrolled} />
+      <Header />
+      <Packages />
+      <Footer />
     </div>
   );
 }
