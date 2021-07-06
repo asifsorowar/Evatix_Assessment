@@ -31,6 +31,15 @@ export const GET_REPOSITORY_INFO = gql`
         commitComments {
           totalCount
         }
+        defaultBranchRef {
+          target {
+            ... on Commit {
+              history {
+                totalCount
+              }
+            }
+          }
+        }
       }
     }
   }

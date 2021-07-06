@@ -34,7 +34,8 @@ const Card = (props: any) => {
               </h5>
             ))}
             <h5 className="u-custom-font u-font-montserrat u-text u-text-default u-text-grey-25 u-text-3">
-              No of Commits: {data?.user.repository.commitComments.totalCount}
+              No of Commits:{" "}
+              {data?.user.repository.defaultBranchRef.target.history.totalCount}
             </h5>
           </div>
         </div>

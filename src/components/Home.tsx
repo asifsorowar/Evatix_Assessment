@@ -86,7 +86,7 @@ const Home = (props: any) => {
                   />
                   <a
                     onClick={props.handleSubmit}
-                    style={{ marginTop: "100px" }}
+                    // style={{ marginTop: "100px" }}
                     className="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-1"
                   >
                     <span className="u-text-palette-4-light-1">

@@ -13,7 +13,7 @@ const GraphQlProvider = ({ children }) => {
   });
 
   const authLink = setContext((_, { headers }) => {
-    const token = "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";
+    const token = "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";
     return {
       headers: {
         ...headers,
